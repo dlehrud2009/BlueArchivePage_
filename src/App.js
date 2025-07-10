@@ -1,5 +1,5 @@
-import React from 'react';
-import { HashRouter as Router, Routes, Route, useLocation, Link } from 'react-router-dom';
+import React, { useEffect } from 'react';
+import { HashRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import { AnimatePresence, motion } from 'framer-motion';
 import ScrollToTop from './components/ScrollToTop';
 import Header from './components/Header';
@@ -14,6 +14,16 @@ import TermsOfService from './pages/TermsOfService';
 import BannerSlider from './components/BannerSlider';
 import Event from './pages/Event';
 import Character from './pages/Character';
+
+function ScrollToTop() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }, [pathname]);
+
+  return null;
+}
 
 function AnimatedRoutes() {
   const location = useLocation();
@@ -70,8 +80,12 @@ function AnimatedRoutes() {
           }
         />
         <Route
-          path="/character" 
-          element={<Character />} 
+          path="/character"
+          element={
+            <PageWrapper>
+              <Character />
+            </PageWrapper>
+          }
         />
         <Route path="/privacy" element={<PrivacyPolicy />} />
         <Route path="/terms" element={<TermsOfService />} />
