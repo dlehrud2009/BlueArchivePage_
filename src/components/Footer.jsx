@@ -20,8 +20,8 @@ export default function Footer() {
       />
       <p>문의: 25_45@bsmm.hs.kr | 010-7456-0853</p>
       <p>
-        <a href="/privacy" style={{ marginRight: 10 }}>개인정보처리방침</a>
-        <a href="/terms">이용약관</a>
+        <Link to="/privacy" style={{ marginRight: 10 }}>개인정보처리방침</Link>
+        <Link to="/terms">이용약관</Link>
       </p>
     </footer>
   );
