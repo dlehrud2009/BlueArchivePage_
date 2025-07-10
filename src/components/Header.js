@@ -9,6 +9,10 @@ export default function Header() {
         <Link to="/">홈</Link>
         <Link to="/departments">학생</Link>
         <Link to="/favorites">최애 캐릭터</Link>
+        <Link to="/character">캐릭터</Link>
+        <Link to="/event">이벤트</Link>
+        <Link to="/privacy">개인정보처리방침</Link>
+        <Link to="/terms">이용약관</Link>
       </nav>
     </header>
   );

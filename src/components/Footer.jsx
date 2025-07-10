@@ -15,7 +15,7 @@ export default function Footer() {
     >
       <p>© 블루아카이브 BlueArchive.</p>
       <img 
-      src={`${process.env.PUBLIC_URL}}/images/BlueArchive.png`}
+      src="/images/BlueArchive.png"
       alt="블루아카이브 로고"
       style={{ width: '100px', marginBottom: '10px' }} 
       />
