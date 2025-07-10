@@ -1,6 +1,6 @@
 const students = {
   샬레: [
-    { id: '선생', name: '선생', academy: '샬레', imageUrl: '/images/선생.png', description: '블루 아카이브의 플레이어 캐릭터. 키보토스의 선생으로서 총학생회 직속 기관 연방수사동아리 샬레의 고문 교사다. 총학생회장 본인이 실종되기 직전에 미리 키보토스 밖에서 특별히 초빙해 온 수수께끼에 싸여있는 인물로 나이, 성별, 외모 등 모든 게 불명이다.' },
+    { id: '선생', name: '선생', academy: '샬레', imageUrl: process.env.PUBLIC_URL + '/images/선생.png', description: '블루 아카이브의 플레이어 캐릭터. 키보토스의 선생으로서 총학생회 직속 기관 연방수사동아리 샬레의 고문 교사다. 총학생회장 본인이 실종되기 직전에 미리 키보토스 밖에서 특별히 초빙해 온 수수께끼에 싸여있는 인물로 나이, 성별, 외모 등 모든 게 불명이다.' },
     { id: '아로나', name: '아로나', academy: '샬레', imageUrl: '', description: '' },
     { id: '프라나', name: '프라나', academy: '샬레', imageUrl: '', description: '' },
   ],

@@ -7,7 +7,7 @@ export default function Character() {
       <h2>주요 캐릭터 업데이트</h2>
 
       <img
-        src="/images/업데이트.png"
+        src={`${process.env.PUBLIC_URL}/images/업데이트.png`}
         alt="주요 캐릭터"
         width={300}
         height={1100}

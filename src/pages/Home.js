@@ -14,7 +14,7 @@ function Home() {
   return (
     <main>
       <h2>학원도시 키보토스</h2>
-      <img src="/images/키보토스.png" alt="지도" className="map" />
+      <img src={`${process.env.PUBLIC_URL}/images/키보토스.png`} alt="지도" className="map" />
       <h2>학원 목록</h2>
       {academies.map((academy) => (
         <FadeInSection key={academy.id}>

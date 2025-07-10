@@ -7,7 +7,7 @@ const initialCharacterInfo = {
     학년: "2학년",
     성격: "말수가 적고 차분한 성격이지만, 학원에 대한 애정이 깊습니다.",
     특징: "조깅과 사이클 라이딩을 즐기며, 체력 단련에 힘씁니다.",
-    imageUrl: "/images/student/시로코.png"
+    imageUrl: process.env.PUBLIC_URL + "/images/student/시로코.png"
   },
   호시노: {
     소개: "호시노 - 아비도스 소속. 대책위원회의 회장.",
@@ -15,7 +15,7 @@ const initialCharacterInfo = {
     학년: "3학년",
     역할: "대책위원회의 회장으로, 리더십을 발휘하여 팀을 이끌고 있습니다.",
     특징: "게으른 듯 보이지만, 책임감이 강한 성격입니다.",
-    imageUrl: "/images/student/호시노.png"
+    imageUrl: process.env.PUBLIC_URL + "/images/student/호시노.png"
   },
   코코나: {
     소개: "코코나 - 산해경 소속. 조숙한 어린 교관.",
@@ -24,7 +24,7 @@ const initialCharacterInfo = {
     성격: "어른스럽게 행동하려 하지만, 여전히 어린아이다운 면모를 지닌 진지한 성격.",
     특징: "어린 나이에 뛰어난 학업 능력으로 교관 권한을 부여받음. 원생들에게 '코코나 쨩'이라 불리지만 그 호칭을 그다지 좋아하진 않음.",
     유머: "문O혁이라는 사람이 좋아한다고...",
-    imageUrl: "/images/student/코코나.png"
+    imageUrl: process.env.PUBLIC_URL + "/images/student/코코나.png"
   },
   이부키: {
     소개: "이부키 - 게헨나 학원 소속. 만마전의 마스코트 격인 소녀.",
@@ -33,7 +33,7 @@ const initialCharacterInfo = {
     성격: "성실하고 예의 바르며, 항상 선배들에게 폐가 되지 않도록 노력하는 바른생활 어린이.",
     특징: "본래 초등부 소속이었으나, 그 능력을 인정받아 만마전에 입부함. 특유의 귀여움과 성실함으로 모두에게 사랑받고 있음.",
     유머: "장O석이라는 사람이 좋아한다고...",
-    imageUrl: "/images/student/exam.png"
+    imageUrl: process.env.PUBLIC_URL + "/images/student/exam.png"
   },
   히카리: {
     소개: "히카리 - 하이랜더 철도학원 소속. 열차 운전의 천재.",
@@ -42,7 +42,7 @@ const initialCharacterInfo = {
     성격: "열차 운전에는 굉장한 재능을 가지고 있지만, 서류나 관리 업무에는 서투릅니다.",
     특징: "하이랜더 철도학원 중앙관제센터(CCC)의 간부로, 열차 운전에는 뛰어난 실력을 보입니다. 쌍둥이 동생 노조미와 함께 활동하며, 때때로 사고를 일으키기도 합니다.",
     유머: "장O석이라는 사람이 좋아한다고...",
-    imageUrl: "/images/student/exam.png"
+    imageUrl: process.env.PUBLIC_URL + "/images/student/exam.png"
   },
   노조미: {
     소개: "노조미 - 하이랜더 철도학원 소속. 쾌활한 중앙관제센터 간부.",
@@ -51,7 +51,7 @@ const initialCharacterInfo = {
     성격: "쾌활하고 발랄한 성격이지만, 사소한 것은 신경 쓰지 않는 타입입니다.",
     특징: "하이랜더 철도학원 중앙관제센터(CCC)의 간부로, 열차 운행에 대해서는 책임감을 발휘합니다. 쌍둥이 언니 히카리와 함께 활동하며, 흥미 본위로 움직이는 경우가 많습니다.",
     유머: "장O석이라는 사람이 좋아한다고...",
-    imageUrl: "/images/student/exam.png"
+    imageUrl: process.env.PUBLIC_URL + "/images/student/exam.png"
   },
   히요리: {
     소개: "히요리 - 아리우스 분교 소속. 소심하고 우울한 성격의 저격수.",
@@ -59,7 +59,7 @@ const initialCharacterInfo = {
     학년: "2학년",
     성격: "낮은 자존감과 네거티브한 성격을 지니며, 세상만사를 염세적으로 바라보는 소심한 성격입니다.",
     특징: "대물 저격총을 사용하여 원거리 지원을 담당하며, 아리우스 스쿼드의 일원으로서 전투에 참여합니다.",
-    imageUrl: "/images/student/exam.png"
+    imageUrl: process.env.PUBLIC_URL + "/images/student/exam.png"
   }
 };
 

@@ -22,7 +22,7 @@ export default function StudentDetail() {
       <h2>{student.name} 프로필</h2>
       {student.imageUrl ? (
         <img
-          src={`/images/student/${student.name}.png`}
+          src={`${process.env.PUBLIC_URL}/images/student/${student.name}.png`}
           alt={student.name}
           style={{ maxWidth: 300, borderRadius: 12 }}
         />

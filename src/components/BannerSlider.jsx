@@ -2,12 +2,12 @@ import React, { useState, useEffect } from 'react';
 
 const slides = [
   {
-    imageUrl: '/images/4주년캐릭터.png',
+    imageUrl: process.env.PUBLIC_URL + '/images/4주년캐릭터.png',
     text: '최신 캐릭터 업데이트! 지금 확인하세요.',
     link: '/character'
   },
   {
-    imageUrl: '/images/4주년.png',
+    imageUrl: process.env.PUBLIC_URL + '/images/4주년.png',
     text: '특별 이벤트 진행 중! 놓치지 마세요.',
     link: '/event'
   }
