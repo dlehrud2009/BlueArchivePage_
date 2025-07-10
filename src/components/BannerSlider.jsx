@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 const slides = [
   {
@@ -15,11 +16,12 @@ const slides = [
 
 export default function BannerSlider() {
   const [currentIndex, setCurrentIndex] = useState(0);
+  const navigate = useNavigate();
 
   useEffect(() => {
     const timer = setInterval(() => {
       setCurrentIndex(prev => (prev + 1) % slides.length);
-    }, 4000); // 4초마다 슬라이드 변경
+    }, 5000);
 
     return () => clearInterval(timer);
   }, []);
@@ -37,7 +39,7 @@ export default function BannerSlider() {
       cursor: 'pointer',
       position: 'relative',
     }}
-      onClick={() => window.location.href = currentSlide.link}
+      onClick={() => navigate(currentSlide.link)}
     >
       <img
         src={currentSlide.imageUrl}
