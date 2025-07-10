@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/BlueArchivePage_/static/css/main.b6eb7d10.css",
-    "main.js": "/BlueArchivePage_/static/js/main.f4040a4f.js",
+    "main.js": "/BlueArchivePage_/static/js/main.2f0421a8.js",
     "index.html": "/BlueArchivePage_/index.html",
     "main.b6eb7d10.css.map": "/BlueArchivePage_/static/css/main.b6eb7d10.css.map",
-    "main.f4040a4f.js.map": "/BlueArchivePage_/static/js/main.f4040a4f.js.map"
+    "main.2f0421a8.js.map": "/BlueArchivePage_/static/js/main.2f0421a8.js.map"
   },
   "entrypoints": [
     "static/css/main.b6eb7d10.css",
-    "static/js/main.f4040a4f.js"
+    "static/js/main.2f0421a8.js"
   ]
 }
