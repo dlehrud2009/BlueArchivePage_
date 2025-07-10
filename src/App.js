@@ -15,16 +15,6 @@ import BannerSlider from './components/BannerSlider';
 import Event from './pages/Event';
 import Character from './pages/Character';
 
-function ScrollToTop() {
-  const { pathname } = useLocation();
-
-  useEffect(() => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  }, [pathname]);
-
-  return null;
-}
-
 function AnimatedRoutes() {
   const location = useLocation();
 
@@ -101,12 +91,18 @@ const PageWrapper = ({ children }) => (
     exit={{ opacity: 0, y: -50, scale: 0.8 }}
     transition={{ duration: 0.6, ease: 'easeInOut' }}
     style={{ minHeight: '100vh' }}
+    onAnimationComplete={() => window.scrollTo(0, 0)}
   >
     {children}
   </motion.div>
 );
 
 export default function App() {
+  useEffect(() => {
+    if ('scrollRestoration' in window.history) {
+      window.history.scrollRestoration = 'manual';
+    }
+  }, []);
   return (
     <Router>
       <ScrollToTop />
