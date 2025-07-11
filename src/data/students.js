@@ -1,8 +1,8 @@
 const students = {
   샬레: [
     { id: '선생', name: '선생', academy: '샬레', imageUrl: process.env.PUBLIC_URL + '/images/선생.png', description: '블루 아카이브의 플레이어 캐릭터. 키보토스의 선생으로서 총학생회 직속 기관 연방수사동아리 샬레의 고문 교사다. 총학생회장 본인이 실종되기 직전에 미리 키보토스 밖에서 특별히 초빙해 온 수수께끼에 싸여있는 인물로 나이, 성별, 외모 등 모든 게 불명이다.' },
-    { id: '아로나', name: '아로나', academy: '샬레', imageUrl: '', description: '' },
-    { id: '프라나', name: '프라나', academy: '샬레', imageUrl: '', description: '' },
+    { id: '아로나', name: '아로나', academy: '샬레', imageUrl: process.env.PUBLIC_URL + '/images/아로나png', description: '블루 아카이브의 등장하는 AI 비서이자 본작의 마스코트. 싯딤의 상자에 상주하는 시스템 관리자이자 메인 OS. 선생님을 돕는 비서 같은 존재이기도 하다.' },
+    { id: '프라나', name: '프라나', academy: '샬레', imageUrl: process.env.PUBLIC_URL + '/images/프라나.png', description: '다른 세계선의 아로나. 외형은 아로나의 반전된 형태로, 비교적 딱딱한 말투를 고수하며 단발이 아닌 장발에 왼쪽이 아닌 오른쪽 눈을 가렸고 땋은 머리도 반대쪽이며 리본이 헤일로와 반대 방향으로 올라와 있다. 리본의 크기 또한 더 크다.' },
   ],
   총학생회: [
     { id: '린', name: '린', academy: '총학생회', imageUrl: '', description: '' },
