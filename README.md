@@ -96,6 +96,6 @@
 
 ---
 
-깃 허브 링크 : https://github.com/dlehrud2009/BlueArchivePage_
+깃 허브 링크 : https://github.com/dlehrud2009/BlueArchivePage_?tab=readme-ov-file
 유튜브 링크 : https://www.youtube.com/watch?v=foA16cgaIYE
 피그마 링크 : https://www.figma.com/design/Aw2gMRWpLjklFgzELpzXwm/Untitled?node-id=0-1&p=f&t=3OPKSmDVNQmT6cxY-0
