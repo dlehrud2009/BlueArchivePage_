@@ -182,6 +182,9 @@ const students = {
   ],
   와일드헌트예술학원: [
     { id: '츠무기', name: '츠무기', academy: '와일드헌트예술학원', imageUrl: '', description: '' },
+    { id: '에리', name: '에리', academy: '와일드헌트예술학원', imageUrl: '', description: '' },
+    { id: '카노에', name: '카노에', academy: '와일드헌트예술학원', imageUrl: '', description: '' },
+    { id: '레나', name: '레나', academy: '와일드헌트예술학원', imageUrl: '', description: '' },
   ],
 };
 

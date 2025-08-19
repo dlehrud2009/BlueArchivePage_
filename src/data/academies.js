@@ -75,7 +75,7 @@ const academies = [
     id:'wildhunt',
     name: '와일드헌트예술학원',
     description: '예술을 중심으로 한 학원. 다양한 예술 분야의 전문가들이 들어온다.',
-    imageUrl: process.env.PUBLIC_URL + '/images/시이나.png'
+    imageUrl: process.env.PUBLIC_URL + '/images/와일드헌트.png'
   }
 ];
 
