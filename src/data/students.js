@@ -185,6 +185,8 @@ const students = {
     { id: '에리', name: '에리', academy: '와일드헌트예술학원', imageUrl: '', description: '' },
     { id: '카노에', name: '카노에', academy: '와일드헌트예술학원', imageUrl: '', description: '' },
     { id: '레나', name: '레나', academy: '와일드헌트예술학원', imageUrl: '', description: '' },
+    { id: '미요', name: '미요', academy: '와일드헌트예술학원', imageUrl: '', description: '' },
+    { id: '아키라', name: '아키라', academy: '와일드헌트예술학원', imageUrl: '', description: '' },
   ],
 };
 
